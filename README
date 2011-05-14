@@ -1,0 +1,5 @@
+This library provides automatic english pluralization of English nouns in JavaScript. It's well tested, extensible, and completely free.
+
+The attache-plural-js library is placed in the public domain, and the author disclaims any copyright. Alternatively, if "public domain" doesn't make sense where you live, you may consider it under the MIT license:
+http://www.opensource.org/licenses/mit-license.php
+An older version of this library called "pluralize-js" and using the "owl" namespace was released under an LGPL license. As the sole original author of both version, I am releasing it again under a new license.
