@@ -1,0 +1,12 @@
+{
+  "name": "attache.plural",
+  "version": "1.0.0",
+  "main": "./attache.plural.js",
+  "dependencies": {},
+  "readme": "README",
+  "description": "exports a plural() function which can pluralize single english nouns",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olooney/attache-pluralize-js.git"
+  }
+}
