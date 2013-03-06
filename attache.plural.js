@@ -1,5 +1,15 @@
 // The author dislaims copyright to this code
-(function() {
+
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        // Use AMD if available
+        define(factory);
+    } else {
+        // otherwise, install into the global 'attache' namespace
+        if ( !root.attache ) root.attache = {};
+        root.attache.plural = factory();
+    }
+})(this, function() {
 	var userDefined = {};
 
 	function capitalizeSame(word, sampleWord) {
@@ -175,7 +185,6 @@
 		userDefined[singular.toLowerCase()] = plural;
 	}
 
-	if ( !window.attache ) attache = {};
-	attache.plural = plural;
+    return plural;
 
-})();
+});
