@@ -98,7 +98,6 @@
 
 		// -y
 		[ /([aeiou])y$/i, '$1ys' ],
-		[ /(^[A-Z][a-z]*)y$/, '$1ys' ], // case sensitive!
 		[ /y$/i, 'ies' ],
 
 		// -o

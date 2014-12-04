@@ -24,7 +24,7 @@ test('define', function() {
 });
 
 test('casing', function() {
-	expect(9);
+	expect(11);
 	// empty string is a special case.
 	equal( attache.plural(""), "", "empty string" );
 
@@ -39,6 +39,10 @@ test('casing', function() {
 	equal( attache.plural("thing"), "things", "thing" );
 	equal( attache.plural("Thing"), "Things", "Thing" );
 	equal( attache.plural("IBM"), "IBMs", "IBM" );
+
+    // casing and suffix rules
+	equal( attache.plural("Country"), "Countries", "Country" );
+	equal( attache.plural("country"), "countries", "country" );
 });
 
 test('pluralize', function() {
