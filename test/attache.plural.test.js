@@ -42,7 +42,7 @@ test('casing', function() {
 });
 
 test('pluralize', function() {
-	expect(138);
+	expect(139);
 	// test lots of known plurals (taken from
 	// Wikipedia and many other sources.)
 	equal( attache.plural("kiss"), "kisses", "kiss" );
@@ -183,4 +183,5 @@ test('pluralize', function() {
 	equal( attache.plural("kerchief"), "kerchiefs", "kerchief" );
 	equal( attache.plural("safe"), "safes", "safe" );
 	equal( attache.plural("human"), "humans", "human" );
+	equal( attache.plural("asparagus"), "asparagus", "asparagus" );
 });
