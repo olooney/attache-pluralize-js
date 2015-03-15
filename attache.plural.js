@@ -81,6 +81,7 @@
 		[ /foot$/i, 'feet' ],
 		[ /zoon$/i, 'zoa' ],
 		[ /([tcsx])is$/i, '$1es' ],
+		[ /oaf$/i, 'oaves' ],
 
 		// fully assimilated suffixes
 		[ /ix$/i, 'ices' ],
